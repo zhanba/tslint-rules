@@ -1,0 +1,22 @@
+{
+  "name": "tslint-rules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc ./rules/preferDestructuringRule.ts",
+    "lint": "tslint --project tsconfig.json --config tslint.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tslib": "^1.9.3",
+    "tslint": "^5.11.0",
+    "tsutils": "^3.0.0",
+    "typescript": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^10.5.8"
+  }
+}

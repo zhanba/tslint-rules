@@ -1,0 +1,16 @@
+{
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "files.autoSave": "onFocusChange",
+  "tslint.autoFixOnSave": true,
+  "tslint.ignoreDefinitionFiles": true,
+  "tslint.exclude": "**/node_modules/**/*",
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "files.exclude": {
+    "**/*.less.d.ts": true
+  }
+}
